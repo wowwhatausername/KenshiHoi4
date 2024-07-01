@@ -1,0 +1,36 @@
+﻿capital = 37
+
+oob = "TST"
+
+set_politics = {
+	ruling_party = wilderness
+}
+
+add_ideas = {
+	army_with_a_state
+	all_for_one
+	raider_economy
+}
+
+set_popularities = {
+	new_imperialism = 0
+	okranite = 0
+	kralist_code = 0
+	old_imperialism = 0
+	hiver = 0
+	liberationism = 0
+	independent = 0
+	raider = 0
+	horde = 0
+	wilderness = 100
+}
+
+create_country_leader = {
+	name = TST_leader
+	desc = TST_leader_desc
+	picture = "gfx/leaders/TST/king.png"
+	ideology = total_anarchy
+	traits = {
+		#
+	}
+}

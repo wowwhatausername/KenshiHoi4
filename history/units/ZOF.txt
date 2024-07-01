@@ -1,0 +1,63 @@
+division_template = {
+	name = "Infantry Division"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Heavy Weapon Swordsmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		heavy_weapons_swordsmen = { x = 0 y = 0 }
+		heavy_weapons_swordsmen = { x = 0 y = 1 }
+        heavy_weapons_swordsmen = { x = 0 y = 2 }
+		heavy_weapons_swordsmen = { x = 1 y = 0 }
+		heavy_weapons_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Hacker Swordsmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		hackers_swordsmen = { x = 0 y = 0 }
+		hackers_swordsmen = { x = 0 y = 1 }
+        hackers_swordsmen = { x = 0 y = 2 }
+		hackers_swordsmen = { x = 1 y = 0 }
+		hackers_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1st Battalion"
+		location = 4044
+		division_template = "Hacker Swordsmen"
+		start_equipment_factor = 2
+		start_experience_factor = 2.0
+	}
+
+division= {	
+		name = "Swords of Okran"
+		location = 6471
+		division_template = "Hacker Swordsmen"
+		start_equipment_factor = 2
+		start_experience_factor = 2.0
+	}
+}
+
+# Production lines here
+#instant_effect = {
+#}

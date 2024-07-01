@@ -1,0 +1,39 @@
+############################################################################################################
+#	Expert AI mod templates
+############################################################################################################
+
+suppression_role = {
+	roles = { suppression }
+	upgrade_prio = { 
+		base = 0
+		modifier = { add = 1 has_country_flag = EAI_suppression_template_upgrade }
+	}
+	match_to_count = 1.0
+
+	SUPPRESSION_TEMPLATE = {
+		production_prio = { factor = 10 }
+		upgrade_prio = { factor = 10 }
+
+		# TEMPLATE
+		target_width = 2
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 1
+
+		target_template = {
+			weight = 0.95
+			match_value = 10000
+
+			regiments = {
+				cavalry = 1
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			cavalry
+
+			# SUPPORT
+		}
+	}
+}

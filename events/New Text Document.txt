@@ -1,0 +1,20 @@
+###########################
+# United cities events
+###########################
+
+add_namespace = unc
+
+
+country_event = {
+	id = unc.1
+	title = "Tengu's Steak"
+	desc = unc.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { # Breaking point!
+		name = unc.1.a
+		ai_chance = { factor = 90 }
+			}
+		}

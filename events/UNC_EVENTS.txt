@@ -1,0 +1,19 @@
+###########################
+# United cities events
+###########################
+
+add_namespace = United
+
+
+country_event = {
+	id = United.1
+	title = "Tengu's Steak"
+	desc = United.1.d
+	picture = GFX_tengu_throne
+	
+	
+	option = { 
+		name = "Yumm"
+		ai_chance = { factor = 100 }
+			}
+		}

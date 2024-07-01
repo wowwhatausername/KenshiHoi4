@@ -1,0 +1,217 @@
+division_template = {
+	name = "Katana Swordsmen"
+	
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		katanas_swordsmen = { x = 0 y = 0 }
+		katanas_swordsmen = { x = 0 y = 1 }
+        katanas_swordsmen = { x = 0 y = 2 }
+		katanas_swordsmen = { x = 1 y = 0 }
+		katanas_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Polearm Swordsmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		polearms_swordsmen = { x = 0 y = 0 }
+		polearms_swordsmen = { x = 0 y = 1 }
+        polearms_swordsmen = { x = 0 y = 2 }
+		polearms_swordsmen = { x = 1 y = 0 }
+		polearms_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Militia Swordsmen"
+	
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		shoddy_swordsmen = { x = 0 y = 0 }
+		shoddy_swordsmen = { x = 0 y = 1 }
+        shoddy_swordsmen = { x = 0 y = 2 }
+		shoddy_swordsmen = { x = 1 y = 0 }
+		shoddy_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Hacker Swordsmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		hackers_swordsmen = { x = 0 y = 0 }
+		hackers_swordsmen = { x = 0 y = 1 }
+        hackers_swordsmen = { x = 0 y = 2 }
+		hackers_swordsmen = { x = 1 y = 0 }
+		hackers_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Sabre Swordsmen"
+	
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		sabres_swordsmen = { x = 0 y = 0 }
+		sabres_swordsmen = { x = 0 y = 1 }
+        sabres_swordsmen = { x = 0 y = 2 }
+		sabres_swordsmen = { x = 1 y = 0 }
+		sabres_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Heavy Weapon Swordsmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		heavy_weapons_swordsmen = { x = 0 y = 0 }
+		heavy_weapons_swordsmen = { x = 0 y = 1 }
+        heavy_weapons_swordsmen = { x = 0 y = 2 }
+		heavy_weapons_swordsmen = { x = 1 y = 0 }
+		heavy_weapons_swordsmen = { x = 1 y = 1 }
+	}
+}
+
+
+
+
+
+division_template = {
+	name = "Basic Crossbowmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		toothpick_crossbowmen = { x = 0 y = 0 }
+		toothpick_crossbowmen = { x = 0 y = 1 }
+        toothpick_crossbowmen = { x = 0 y = 2 }
+		toothpick_crossbowmen = { x = 1 y = 0 }
+		toothpick_crossbowmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Assault Crossbowmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		spring_bat_crossbowmen = { x = 0 y = 0 }
+		spring_bat_crossbowmen = { x = 0 y = 1 }
+        spring_bat_crossbowmen = { x = 0 y = 2 }
+		spring_bat_crossbowmen = { x = 1 y = 0 }
+		spring_bat_crossbowmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Standard Crossbowmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		ranger_crossbowmen = { x = 0 y = 0 }
+		ranger_crossbowmen = { x = 0 y = 1 }
+        ranger_crossbowmen = { x = 0 y = 2 }
+		ranger_crossbowmen = { x = 1 y = 0 }
+		ranger_crossbowmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Sniper Crossbowmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		oldworld_bow_crossbowmen = { x = 0 y = 0 }
+		oldworld_bow_crossbowmen = { x = 0 y = 1 }
+        oldworld_bow_crossbowmen = { x = 0 y = 2 }
+		oldworld_bow_crossbowmen = { x = 1 y = 0 }
+		oldworld_bow_crossbowmen = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Elite Crossbowmen"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		eagles_cross_crossbowmen = { x = 0 y = 0 }
+		eagles_cross_crossbowmen = { x = 0 y = 1 }
+        eagles_cross_crossbowmen = { x = 0 y = 2 }
+		eagles_cross_crossbowmen = { x = 1 y = 0 }
+		eagles_cross_crossbowmen = { x = 1 y = 1 }
+	}
+}
+
+
+
+
+
+division_template = {
+	name = "Horde"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		horde_batallion = { x = 0 y = 0 }
+		horde_batallion = { x = 0 y = 1 }
+        horde_batallion = { x = 0 y = 2 }
+		horde_batallion = { x = 1 y = 0 }
+		horde_batallion = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Wild Animals"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		wild_batallion = { x = 0 y = 0 }
+		wild_batallion = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Martial Artists"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		martial_artist = { x = 0 y = 0 }
+		martial_artist = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Boss"
+
+	division_names_group = ALL_INF_01
+
+	regiments = {
+		boss = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	##### Put army here #####
+}
+
+
+# Production lines here
+#instant_effect = {
+#}
