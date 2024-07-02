@@ -1,0 +1,7 @@
+Ideas = {
+    uncompetitive_economy = {
+        production_speed_buildings_factor = 1
+        consumer_goods_factor = 0.5
+        research_speed_factor = 0.5
+    }
+}
