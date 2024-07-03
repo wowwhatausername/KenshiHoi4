@@ -7,7 +7,7 @@ add_namespace = United
 
 country_event = {
 	id = United.1
-	title = "Tengu's Steak"
+	title = "In the Empire"
 	desc = United.1.d
 	picture = GFX_tengu_throne
 	

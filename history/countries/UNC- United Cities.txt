@@ -33,6 +33,9 @@ add_ideas = {
 	lavish_economy
 	free_trade
 	uncompetitive_economy
+	slavery_national_identity
+	nobles_high_standards
+	famines_widespread
 }
 
 set_popularities = {
