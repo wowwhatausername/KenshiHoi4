@@ -13,7 +13,7 @@ Ideas = {
     famines_widespread = {
             modifier = {
                 stability_factor = -0.25
-                monthly_population -0.35
+                monthly_population = -0.35
                 surrender_limit = -0.2
             }
         }
