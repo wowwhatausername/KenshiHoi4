@@ -11,9 +11,81 @@ country_event = {
 	desc = United.1.d
 	picture = GFX_tengu_throne
 	
+	is_triggered_only = yes
 	
 	option = { 
-		name = "Yumm"
+		name = "Bless the Emperor, Bless the Empire!"
 		ai_chance = { factor = 100 }
 			}
 		}
+
+		country_event = {
+	id = United.2
+	title = "In the Noble Circle"
+	desc = United.2.d
+	picture = GFX_tengu_throne
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Bless the Nobles!"
+		ai_chance = { factor = 100 }
+			}
+		}
+
+			country_event = {
+	id = United.3
+	title = "In the Military"
+	desc = United.3.d
+	picture = GFX_tengu_throne
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Bless the Samurai! Bless Eyegore!"
+		ai_chance = { factor = 100 }
+			}
+		}
+
+			country_event = {
+	id = United.4
+	title = "News from the South"
+	desc = United.4.d
+	picture = GFX_tengu_throne
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "'FINE!'"
+		ai_chance = { factor = 90 }
+	add_stability = 0.05
+	
+	}
+		option = { 
+		name = "'NO! MEANS! NO!'"
+		ai_chance = { factor = 10 }
+		add_stability = -0.1	
+		custom_effect_tooltip = "poopooshitshit"
+			hidden_effect = {
+	country_event = { id = United.6969 days = 3 }
+}
+			}
+		
+		}
+
+
+			country_event = {
+	id = United.6969
+	title = "Tengu Assinated!"
+	desc = United.6969.d
+	picture = GFX_tengu_throne
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Oh Shit"
+		ai_chance = { factor = 100 }
+	add_stability = -0.5
+    kill_country_leader
+}
+}
