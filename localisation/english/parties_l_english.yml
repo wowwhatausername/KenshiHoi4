@@ -19,6 +19,23 @@
  horde_noun:0 "Horde"
  wilderness:0 "Wild"
  wilderness_noun:0 "Wilderness"
+
+# Template for Party/Faction Names
+ XXX_new_imperialism_party:0 ""
+ XXX_okranite_party:0 ""
+ XXX_kralist_code_party:0 ""
+ XXX_old_imperialism_party:0 ""
+ XXX_hiver_party:0 ""
+ XXX_liberationism_party:0 ""
+ XXX_independent_party:0 ""
+ XXX_raider_party:0 ""
+ XXX_horde_party:0 ""
+ XXX_wilderness_party:0 ""
+
+ UNC_new_imperialism_party:0 "Nobles Circle - Conservatives"
+ UNC_okranite_party:0 "Various Okranites"
+ UNC_liberationism_party:0 "Reformists - Radicals"
+ UNC_independent_party:0 "Reformists - Pragmatists"
  
  new_imperialism_desc:0 "Free Market Oligarchy"
  okranite_desc:0 "Human Theocracy"
@@ -116,8 +133,6 @@
  untamed_wilderness_desc:0 ""
  total_anarchy_desc:0 ""
  total_wasteland_desc:0 ""
- 
-
 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"

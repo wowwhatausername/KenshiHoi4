@@ -23,10 +23,8 @@
 		focus = {
 		id = ZHO_the_dying_city
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus =  }
 		x = 8
 		y = 0
-		relative_position_id =
 
 		cost = 10
 
