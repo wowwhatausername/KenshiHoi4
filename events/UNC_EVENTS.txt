@@ -86,6 +86,15 @@ country_event = {
 		name = "Oh Shit"
 		ai_chance = { factor = 100 }
 	add_stability = -0.5
-    kill_country_leader
+    kill_country_leader = yes
+		create_country_leader = {
+			name = IMP_leader
+	desc = IMP_leader_desc
+	picture = "gfx/leaders/UNC/Eyegore.dds"
+	ideology = foundationism
+	traits = {
+		#
+	}
+		}
 }
 }
