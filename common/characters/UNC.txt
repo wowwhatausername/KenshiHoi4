@@ -12,4 +12,19 @@ characters = {
 			id = -1
 		}
 	}
+
+UNC_prov = {
+		name = "Provisional Goverment" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kirill_Bechvaya
+			}
+		}
+		country_leader = {
+			ideology = feudal_union
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
 }
+
