@@ -22,6 +22,7 @@ add_ideas = {
 	last_man_standing
 	no_economy
 	raider_economy
+	spider_hivemind
 }
 
 set_popularities = {
@@ -46,5 +47,6 @@ create_country_leader = {
 		#
 	}
 }
+
 
 

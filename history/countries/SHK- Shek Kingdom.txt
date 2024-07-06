@@ -27,6 +27,8 @@ add_ideas = {
 	encouraged_service
 	military_economy
 	limited_exports
+	warrior_culture
+	declining_population
 }
 
 set_popularities = {

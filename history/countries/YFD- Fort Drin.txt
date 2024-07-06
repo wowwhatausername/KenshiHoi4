@@ -22,6 +22,7 @@ add_ideas = {
 	army_with_a_state
 	military_economy
 	limited_exports
+	warlord_state
 }
 
 set_popularities = {

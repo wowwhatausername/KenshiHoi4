@@ -1,0 +1,16 @@
+Ideas = {
+    country = {
+        warlord_state = {
+                modifier = {
+                    production_speed_buildings_factor = -1
+                    stability_factor = -0.5
+                    stability_weekly_factor = -0.05
+                    puppet_cost_factor = 1
+                    army_attack_factor = -0.2
+                    army_defence_factor = -0.2
+                    research_speed_factor = -0.5
+                    surrender_limit = 0.25
+            }
+        }
+    }
+}

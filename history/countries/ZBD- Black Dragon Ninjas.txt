@@ -22,6 +22,7 @@ add_ideas = {
 	army_with_a_state
 	all_for_one
 	raider_economy
+	warlord_state
 }
 
 set_popularities = {

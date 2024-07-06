@@ -22,6 +22,7 @@ add_ideas = {
 	national_draft
 	balanced_economy
 	export_focus
+	warlord_state
 }
 
 set_popularities = {

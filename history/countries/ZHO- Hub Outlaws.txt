@@ -22,6 +22,7 @@ add_ideas = {
 	national_draft
 	military_economy
 	closed_economy
+	warlord_state
 }
 
 set_popularities = {
