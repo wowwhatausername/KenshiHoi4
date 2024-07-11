@@ -1,0 +1,17 @@
+UNC_the_power_struggle = {
+	visible_when_empty = no
+	allowed = {
+		tag = UNC
+	}
+	visible = {
+		FRA = { 
+			OR = {
+				has_country_flag = {
+					flag = new_emp_needed
+					value = 1
+				}
+				has_completed_focus =  UNC_imperial_elections 
+			} 
+		}
+	}
+}

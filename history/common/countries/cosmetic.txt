@@ -1,0 +1,32 @@
+ZHO_UNI = {
+    color = rgb { 165 116 82 }
+	color_ui = rgb { 165 116 82 }
+}
+ZCN_UNI = {
+color = rgb { 52 42 84 }
+color_ui = rgb { 52 42 84 }
+	}
+	ZDV_UNI = {
+	color = rgb { 198 219 219 }
+	color_ui = rgb { 198 219 219 }
+	}
+	
+SWAMP_UNI = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+	}
+CRAB_EMPIRE = {
+	color = rgb { 255 158 94 }
+	color_ui = rgb { 255 158 94 }
+	}
+	
+	GOOD_CANNIBAL = {
+	color = rgb { 127 0 0 }
+	color_ui = rgb { 127 0 0 }
+}
+
+NORTH_UNION = {
+color = rgb { 204 0 0 }
+color_ui = rgb { 204 0 0 }
+}
+	

@@ -1,0 +1,924 @@
+﻿focus_tree = {
+	id = ZHO_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ZHO
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = AST
+		#	has_dlc = "Together for Victory"
+		#}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+
+		focus = {
+		id = ZHO_the_dying_city
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_stability = -0.1	
+		}
+	}
+	focus = {
+	id = ZHO_begin_rebuilding
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_the_dying_city }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_the_dying_city
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = -10	
+		}
+	}
+
+focus = {
+	id = ZHO_build_homes
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_begin_rebuilding }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_begin_rebuilding
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_building_construction = {
+			type = infrastructure
+			instant_build = yes
+			level = 1
+		}	
+	}
+		}
+	}
+focus = {
+	id = ZHO_demolish_ruins
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_build_homes }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_build_homes
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_extra_state_shared_building_slots = 2
+	}
+		}
+	}
+focus = {
+	id = ZHO_settle_refugees
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_demolish_ruins }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_demolish_ruins
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_manpower = 10000
+	}
+		}
+	}
+focus = {
+	id = ZHO_build_workshops
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_begin_rebuilding }
+		x = 2
+		y = 1
+		relative_position_id = ZHO_begin_rebuilding
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_building_construction = {
+			type = industrial_complex
+			instant_build = yes
+			level = 1
+}
+		add_extra_state_shared_building_slots = 1
+	
+	}
+		}
+}
+focus = {
+	id = ZHO_pave_the_dirt_tracks
+		icon = GFX_goal_generic_major_war
+		prerequisite = {focus = ZHO_build_workshops }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_build_workshops
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_building_construction = {
+			type = infrastructure
+			instant_build = yes
+			level = 1
+	}
+		}
+	}
+}
+focus = {
+	id = ZHO_encourage_investment
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_pave_the_dirt_tracks }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_pave_the_dirt_tracks
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_building_construction = {
+			type = industrial_complex
+			instant_build = yes
+			level = 2
+	}
+add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+focus = {
+	id = ZHO_build_arms
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_begin_rebuilding }
+		x = -2
+		y = 1
+		relative_position_id = ZHO_begin_rebuilding
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_building_construction = {
+			type = arms_factory
+			instant_build = yes
+			level = 1
+}
+		add_extra_state_shared_building_slots = 1
+	
+	}
+		}
+}
+focus = {
+	id = ZHO_prospect_rescources
+		icon = GFX_goal_generic_major_war
+		prerequisite = {focus = ZHO_build_arms }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_build_arms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			add_resource = {
+    type = oil
+    amount = 5
+}
+add_resource = {
+    type = steel
+    amount = 4
+}
+	}
+		}
+	}
+focus = {
+	id = ZHO_raise_militias
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_prospect_rescources }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_prospect_rescources
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		210 = {
+			create_unit = {
+    division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+    owner = ZHO
+}
+create_unit = {
+    division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+    owner = ZHO
+}
+create_unit = {
+    division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+    owner = ZHO
+}
+		}
+	}
+}
+focus = {
+id = ZHO_the_hub_once_more
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_raise_militias }
+prerequisite = { focus = ZHO_encourage_investment }
+prerequisite = { focus = ZHO_settle_refugees }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_settle_refugees
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		add_stability = 0.2
+	}
+}
+focus = {
+id = ZHO_reclaim_our_rightful_land
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_the_hub_once_more }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_the_hub_once_more
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+		203 = {
+add_core_of = ZHO
+}
+204 = {
+add_core_of = ZHO
+}
+184 = {
+add_core_of = ZHO
+}
+191 = {
+add_core_of = ZHO
+}
+182 = {
+add_core_of = ZHO
+}
+197 = {
+add_core_of = ZHO
+}
+181 = {
+add_core_of = ZHO
+}
+176 = {
+add_core_of = ZHO
+}
+216 = {
+add_core_of = ZHO
+}
+234 = {
+add_core_of = ZHO
+}
+228 = {
+add_core_of = ZHO
+}
+225 = {
+add_core_of = ZHO
+}
+221 = {
+add_core_of = ZHO
+}
+213 = {
+add_core_of = ZHO
+}
+189 = {
+add_core_of = ZHO
+}
+174 = {
+add_core_of = ZHO
+}
+185 = {
+add_core_of = ZHO
+}
+	}
+}
+focus = {
+		id = ZHO_put_down_the_hivers
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_reclaim_our_rightful_land }
+		x = 1
+		y = 1
+		relative_position_id = ZHO_reclaim_our_rightful_land
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZHH
+}
+		}
+	}
+focus = {
+		id = ZHO_destroy_the_mad_swordsman
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_reclaim_our_rightful_land }
+		x = -1
+		y = 1
+		relative_position_id = ZHO_reclaim_our_rightful_land
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZNM
+}
+		}
+	}
+	focus = {
+		id = ZHO_unite_with_the_doves
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_put_down_the_hivers }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_put_down_the_hivers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+	annex_country = {
+target = ZDV
+transfer_troops = yes
+}
+}
+	}
+focus = {
+		id = ZHO_put_down_the_shinobis
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_destroy_the_mad_swordsman }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_destroy_the_mad_swordsman
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZSC
+}
+		}
+	}
+focus = {
+		id = ZHO_feed_the_bandits_with_steel
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_put_down_the_shinobis }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_put_down_the_shinobis
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZSC
+}
+		}
+	}
+focus = {
+		id = ZHO_take_down_the_front
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_feed_the_bandits_with_steel }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_feed_the_bandits_with_steel
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZRF
+}
+		}
+	}
+focus = {
+		id = ZHO_let_the_hearts_blead_out
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_unite_with_the_doves }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_unite_with_the_doves
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZBH
+}
+		}
+	}
+focus = {
+		id = ZHO_crush_the_eyebrows
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_let_the_hearts_blead_out }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_let_the_hearts_blead_out
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZWE
+}
+		}
+	}
+focus = {
+		id = ZHO_across_the_river
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_crush_the_eyebrows }
+		prerequisite = { focus = ZHO_take_down_the_front }
+		x = 0
+		y = 5
+		relative_position_id = ZHO_reclaim_our_rightful_land
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		create_wargoal = {
+    type = annex_everything
+    target = ZST
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZOF
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZDB
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZBD
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZCN
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZGL
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZFC
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZVG
+}
+	create_wargoal = {
+    type = annex_everything
+    target = ZWM
+}
+		}
+	}
+focus = {
+		id = ZHO_the_border_zone_free
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ZHO_across_the_river }
+		x = 0
+		y = 1
+		relative_position_id = ZHO_across_the_river
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_stability = 0.3
+		set_cosmetic_tag = ZHO_UNI	
+		}
+	}
+}		

@@ -1,0 +1,16 @@
+ideas = {
+country = {
+        my_spirit = {
+            picture = my_picture        # Using GFX_idea_my_picture
+            modifier = {
+                training_time_factor = -0.1
+            }
+
+
+
+}
+}
+
+
+
+}

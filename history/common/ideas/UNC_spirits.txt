@@ -1,0 +1,21 @@
+Ideas = {
+    country = {
+        nobles_high_standards = {
+              modifier = {
+                consumer_goods_factor = 0.5
+            }
+        }
+    uncompetitive_economy = {
+              modifier = {
+                production_speed_buildings_factor = -0.75
+            }
+        }
+    famines_widespread = {
+            modifier = {
+                stability_factor = -0.25
+                monthly_population = -0.35
+                surrender_limit = -0.2
+            }
+        }
+    }
+}

@@ -72,9 +72,111 @@ country_event = {
 			}
 		
 		}
-
-
-			country_event = {
+		country_event = {
+			id = United.5
+			title = "Radicals Win!"
+			desc = United.5.d
+			picture = GFX_tengu_throne
+			
+			is_triggered_only = yes
+			
+			option = { 
+				name = "Without the Radicals there will be no New Empire!"
+				ai_chance = { factor = 100 }	
+			clr_country_flag = new_emp_needed
+			add_stability = 0.25
+			set_politics = {
+				ruling_party = liberationism
+				elections_allowed = no
+			}
+			create_country_leader = {
+			name = "Hitobito Yukio"
+			desc = UNC_radical_desc
+			picture = ""
+			ideology = reformist_imperialism
+			traits = {
+				#
+			}
+				}
+		}
+		}
+		country_event = {
+			id = United.6
+			title = "Conservatives Win!"
+			desc = United.6.d
+			picture = GFX_tengu_throne
+			
+			is_triggered_only = yes
+			
+			option = { 
+				name = "A lot of blood for not a lot of change"
+				ai_chance = { factor = 100 }	
+			clr_country_flag = new_emp_needed
+			add_stability = 0.25
+			create_country_leader = {
+			name = "Lord Generic Idiot"
+			desc = UNC_conservative_desc
+			picture = ""
+			ideology = feudal_union
+			traits = {
+				#
+			}
+				}
+		}
+		}
+		country_event = {
+			id = United.7
+			title = "Pragmatists Win!"
+			desc = United.7.d
+			picture = GFX_tengu_throne
+			
+			is_triggered_only = yes
+			
+			option = { 
+				name = "Little Change is ahead I suppose"
+				ai_chance = { factor = 100 }	
+			clr_country_flag = new_emp_needed
+			add_stability = 0.25
+			set_politics = {
+				ruling_party = independent
+				elections_allowed = no
+			}
+			create_country_leader = {
+			name = "Hanashite Ōkī"
+			desc = UNC_pragmatist_desc
+			picture = ""
+			ideology = reformist_imperialism
+			traits = {
+				#
+			}
+				}
+		}
+		}
+		country_event = {
+			id = United.8
+			title = "Military Takes Over"
+			desc = United.8.d
+			picture = GFX_tengu_throne
+			
+			is_triggered_only = yes
+			
+			option = { 
+				name = "Thats what happens when you can't agree"
+				ai_chance = { factor = 100 }	
+			clr_country_flag = new_emp_needed
+			add_stability = 0.25
+			create_country_leader = {
+				name = IMP_leader
+		desc = IMP_leader_desc
+		picture = "gfx/leaders/UNC/Eyegore.dds"
+		ideology = foundationism
+		traits = {
+			#
+		}
+			}
+				}
+		}
+	country_event = {
 	id = United.6969
 	title = "Tengu Assinated!"
 	desc = United.6969.d
@@ -84,12 +186,13 @@ country_event = {
 	
 	option = { 
 		name = "Oh Shit"
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 100 }	
+		load_focus_tree = UNC_elect_focus_tree
 	add_stability = -0.5
     kill_country_leader = yes
 		create_country_leader = {
-			name = UNC_prov
-	desc = IMP_prov_desc
+			name = IMP_leader
+	desc = IMP_leader_desc
 	picture = "gfx/leaders/UNC/Eyegore.dds"
 	ideology = foundationism
 	traits = {

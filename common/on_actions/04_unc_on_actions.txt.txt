@@ -1,0 +1,55 @@
+
+on_actions = {
+
+on_daily_UNC = {
+	effect = {
+
+		if = {		
+		UNC = {
+			country_event = { id = United.5 }
+		}
+			limit = {
+		check_variable = {
+			var = radicals_influence 
+			value = 100
+			compare = greater_than_or_equals
+				}	
+			}
+		}
+	}
+}
+on_daily_UNC = {
+	effect = {
+
+		if = {		
+		UNC = {
+			country_event = { id = United.6 }
+		}
+			limit = {
+		check_variable = {
+			var = idiot_influence 
+			value = 100
+			compare = greater_than_or_equals
+				}	
+			}
+		}
+	}
+}
+on_daily_UNC = {
+	effect = {
+
+		if = {		
+		UNC = {
+			country_event = { id = United.7 }
+		}
+			limit = {
+		check_variable = {
+			var = pragmatic_influence 
+			value = 100
+			compare = greater_than_or_equals
+				}	
+			}
+		}
+	}
+}
+}
