@@ -1,0 +1,25 @@
+
+state={
+	id=25
+	name="STATE_25"
+	history={
+		owner = HNO
+		add_core_of = HNO
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		1270 3118 4039 5108 6433 8666 8739 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

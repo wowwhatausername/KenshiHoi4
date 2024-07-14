@@ -1,0 +1,24 @@
+state={
+	id=217
+	name="STATE_217"
+	history={
+		owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			454 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		648 940 1974 1975 2526 2726 3501 4211 5096 6720 6734 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,12 @@
+
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		247 1701 1785 1890 2210 3337 4000 4272 5840 7080 7084 7122 7126 7177 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

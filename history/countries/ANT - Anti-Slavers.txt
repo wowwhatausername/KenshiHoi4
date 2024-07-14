@@ -1,0 +1,19 @@
+﻿capital = 53
+
+oob = "OOB_Default"
+
+recruit_character = ANT_Tinfist
+
+set_politics = {
+	ruling_party = liberty
+	last_election = "9999.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberty = 84
+	neutrality = 9
+	wildlife = 1
+	banditry = 6
+}

@@ -1,0 +1,99 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_operative_unknown"
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown_female"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_arc"
+		texturefile = "gfx/leaders/portrait_arc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_big_grim"
+		texturefile = "gfx/leaders/portrait_big_grim.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_cannibal_grand_wizard"
+		texturefile = "gfx/leaders/portrait_cannibal_grand_wizard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_dust_king"
+		texturefile = "gfx/leaders/portrait_dust_king.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_esata"
+		texturefile = "gfx/leaders/portrait_esata.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_fog_princes"
+		texturefile = "gfx/leaders/portrait_fog_princes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_holy_lord_phoenix"
+		texturefile = "gfx/leaders/portrait_holy_lord_phoenix.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_king_gurgler"
+		texturefile = "gfx/leaders/portrait_king_gurgler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_lord_shiro"
+		texturefile = "gfx/leaders/portrait_lord_shiro.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_lord_tengu"
+		texturefile = "gfx/leaders/portrait_lord_tengu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_meat_lord"
+		texturefile = "gfx/leaders/portrait_meat_lord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_queen"
+		texturefile = "gfx/leaders/portrait_queen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_red_sabre_boss"
+		texturefile = "gfx/leaders/portrait_red_sabre_boss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_savant"
+		texturefile = "gfx/leaders/portrait_savant.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_tinfist"
+		texturefile = "gfx/leaders/portrait_tinfist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_voodoo_brothers"
+		texturefile = "gfx/leaders/portrait_voodoo_brothers.dds"
+	}
+}

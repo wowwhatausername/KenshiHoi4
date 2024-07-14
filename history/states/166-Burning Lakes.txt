@@ -1,0 +1,24 @@
+
+state={
+	id=166
+	name="STATE_166"
+	history={
+		owner = TEC
+		add_core_of = TEC
+		victory_points = {
+			11764 25
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		996 1447 1545 2212 3306 3485 3896 4044 4173 4964 4974 5033 5263 5647 5877 5963 6562 9948 9971 10033 10050 10090 10103 10130 10150 10163 10169 10187 10212 10218 10233 10241 10245 10268 10287 10378 10406 10458 10474 13298 13321 13354 13372 13384 13385 13386 13790 13810 13819 13849 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

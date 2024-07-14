@@ -1,0 +1,25 @@
+
+state={
+	id=101
+	name="STATE_101"
+	history={
+		owner = SNI
+		add_core_of = SNI
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		36 70 346 347 375 453 765 1758 2203 2426 2664 3339 4008 4105 4125 4183 5834 6382 10704 10737 10781 10796 10855 10927 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

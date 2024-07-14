@@ -1,0 +1,25 @@
+
+state={
+	id=128
+	name="STATE_128"
+	history={
+		owner = THN
+		add_core_of = THN
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		4 21 143 1380 1689 2191 2496 2859 3271 3304 3353 3684 3708 3775 3847 4155 4233 4366 4734 5890 6292 6372 7265 7284 7291 7308 7319 7324 7326 7345 7348 7355 7362 7400 7403 7425 13308 13323 13325 13331 13340 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=223
+	name="STATE_223"
+	history={
+		owner = DHV
+		add_core_of = DHV
+		victory_points = {
+			454 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		141 272 435 2447 2776 3009 3296 3599 3760 4267 5595 5711 6126 7871 7906 7914 7920 7928 7943 7954 7987 8018 8022 8057 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

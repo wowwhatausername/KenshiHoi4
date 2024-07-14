@@ -1,0 +1,25 @@
+
+state={
+	id=173
+	name="STATE_173"
+	history={
+		owner = SHM
+		add_core_of = SHM
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		728 1312 2235 2465 2564 4077 4521 4587 4623 4690 5365 5672 5710 6306 6530 6628 8976 9009 9028 9040 9061 9065 9074 9080 9107 9108 13465 13466 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

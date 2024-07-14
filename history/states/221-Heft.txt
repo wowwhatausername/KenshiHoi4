@@ -1,0 +1,25 @@
+
+state={
+	id=221
+	name="STATE_221"
+	history={
+		owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			454 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		335 386 514 566 612 617 776 805 852 1020 1096 1103 1131 1340 1398 1460 1473 1590 1643 1675 1882 2101 2105 2119 2228 2443 2573 2678 2741 2882 2975 2996 3959 4129 4178 4260 4284 4287 4397 4622 4679 4805 4855 4865 4890 4960 5200 5212 5286 5364 6526 6541 7288 7323 7327 7336 7338 7360 7370 7373 7393 7417 7420 7422 7423 7427 7446 7450 7465 7533 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

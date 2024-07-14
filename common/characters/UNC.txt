@@ -14,7 +14,7 @@ characters = {
 	}
 
 UNC_prov = {
-		name = "Council of Nobles" 
+		name = "Provisional Goverment" 
 		portraits = {
 			civilian = {
 				large = GFX_portrait_Kirill_Bechvaya

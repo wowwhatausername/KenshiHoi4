@@ -1,0 +1,24 @@
+state={
+	id=87
+	name="STATE_87"
+	history={
+		owner = SKN
+		add_core_of = SKN
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		78 88 333 516 646 968 1264 1516 1825 1965 2065 2109 2208 2246 2294 2525 2998 3900 3937 3955 4116 4250 4430 4505 4533 4535 4980 5011 5087 5132 5177 5351 5831 5861 6220 6390 11136 11184 11192 11193 11216 11224 11242 11255 11278 11279 11291 11313 11318 11340 11382 11388 11404 11407 11419 11433 11444 11472 11481 11497 11501 11518 11539 11541 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

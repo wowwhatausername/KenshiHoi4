@@ -1,0 +1,25 @@
+
+state={
+	id=60
+	name="STATE_60"
+	history={
+		owner = RED
+		add_core_of = RED
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		89 1230 3327 3623 3982 4792 5729 10418 10451 10463 10559 10578 13903 13907 13909 13910 13914 13916 13918 13920 13922 13925 13932 13936 13937 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

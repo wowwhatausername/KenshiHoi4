@@ -1,0 +1,27 @@
+state={
+	id=41
+	name="STATE_41"
+	provinces={
+		355 563 3268 3632 5446 5482 7690 7718 7737 7767 7785 7786 7804 7822 
+	}
+	history={
+		owner = THN
+		add_core_of = THN
+		buildings = {
+			infrastructure = 9
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			7737 100
+		}
+	}
+	resources={
+		oil=1
+		rubber=4
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

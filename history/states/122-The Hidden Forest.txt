@@ -1,0 +1,27 @@
+
+state={
+	id=122
+	name="STATE_122"
+
+	history={
+		owner = CNB
+		add_core_of = CNB
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		121 650 697 948 1410 1986 2161 2230 2337 2567 2868 2927 2936 3220 3511 3625 3890 4103 4538 4962 5327 6006 7067 7069 7125 7141 7160 7165 7168 7186 7187 7200 7210 7218 7226 7235 7248 7250 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

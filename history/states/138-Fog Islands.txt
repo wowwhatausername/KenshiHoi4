@@ -1,0 +1,42 @@
+
+state={
+	id=138
+	name="STATE_138"
+
+	history={
+		owner = DHV
+		add_core_of = DHV
+		victory_points = {
+			6065 10 
+		}
+		victory_points = {
+			7778 50 
+		}
+		victory_points = {
+			2447 25 
+		}
+		victory_points = {
+			1549 25 
+		}
+		victory_points = {
+			7928 25 
+		}
+		victory_points = {
+			7599 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		384 780 836 995 1023 1223 1253 1503 1549 1627 2373 2416 2562 2575 2803 2969 3058 3248 3249 3321 3330 3651 3911 4112 4274 4316 4626 4987 5107 5278 5582 5724 5741 5974 6065 6066 6592 6626 7549 7583 7587 7599 7602 7606 7623 7635 7639 7647 7656 7667 7686 7687 7712 7716 7717 7734 7740 7741 7748 7758 7778 7831 7837 7854 7880 7888 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

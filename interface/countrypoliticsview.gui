@@ -7,7 +7,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300	
-		size = { width=550 height=100%% }
+		size = { width=550 height=786 }
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
@@ -53,27 +53,20 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "chart_explanation"
-			position = { x = 300 y = 305 }
-			size = { width = 240 height = 60 }
-			clipping = yes
-			verticalScrollbar = "right_vertical_slider"
-			margin = { top = 0 bottom = 0}
-			
-			background = {
-			 name = "Background"  
-			 spriteType =""
-			 position = { x = 0 y = 0 }
-			}
+			position = { x = 18 y = 116 }
+			size = { width = 330 height = 70 }
+			clipping = no
 			
 			gridBoxType = {
-			 name = "parties_grid"
-			 position = { x = -20 y = -5 }
-			 size = { width = 230 height = 60 }
-			 slotsize = { width = 230 height = 14 }
-			 format = "UPPER_LEFT"
+				name = "parties_grid"
+				position = { x = 260 y = 184 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 230 height = 13 }
+				format = "UPPER_LEFT"
 			}
-		   }
-		 
+		}
+
+		
 		containerWindowType = {
 			name = "political_pie_chart"
 			position = { x= 270 y = 304 }
@@ -98,19 +91,10 @@ guiTypes = {
 			position = { x = 88 y = 305 }
 			size = { width = 255 height = 60 }
 			clipping = no
-					
-#			instantTextboxType = {
-#				name = "party"
-#				position = { x = 9 y = 2 }
-#				font = "hoi_18mbs"
-#				text = "party"
-#				maxWidth = 155
-#				maxHeight = 20
-#			}
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 9 y = 8 }
+				position = { x = 9 y = 22 }
 				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 155
@@ -119,7 +103,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 29 }
+				position = { x = 729 y = 29 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
@@ -155,13 +139,6 @@ guiTypes = {
 					name = "show_power_balance"
 					position = { x = 0 y = 0 }
 					quadTextureSprite = "GFX_show_power_balance_button"
-				}
-				
-				iconType = {
-					name = "show_power_balance_glow"
-					position = { x = 0 y = 0 }
-					quadTextureSprite = "GFX_bop_glow_effect"
-					alwaystransparent = yes
 				}
 
 				instantTextboxType = {
@@ -646,15 +623,14 @@ guiTypes = {
 		}
 	}
 	
-	
 	containerWindowType = {
 		name = "political_ideas_window"
-		position = { x = -356 y = 80 }	
+		position = { x = -350 y = 80 }	
 		show_position = { x = 540 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=500 height=590 }
+		size = { width=500 height=405 }
 		show_sound = open_sub_window
 		
 		background = {
@@ -719,7 +695,7 @@ guiTypes = {
 					name = "box_list"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 462 height = 74 }
+					slotsize = { width = 562 height = 74 }
 					add_horizontal = no
 					format = "UPPER_LEFT"
 				}

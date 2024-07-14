@@ -1,0 +1,20 @@
+﻿capital = 26
+
+oob = "OOB_Default"
+
+recruit_character = DUS_Dust_King
+
+set_politics = {
+	ruling_party = banditry
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	banditry = 70
+	neutrality = 8
+	wildlife = 12
+	liberty = 8
+	holy = 2
+}

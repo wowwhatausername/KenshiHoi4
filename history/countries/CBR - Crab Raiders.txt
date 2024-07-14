@@ -1,0 +1,19 @@
+﻿capital = 95
+
+oob = "OOB_Default"
+
+recruit_character = CBR_Crab_King
+
+set_politics = {
+	ruling_party = banditry
+	last_election = "9936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	banditry = 78
+	wildlife = 14
+	liberty = 2
+	neutrality = 6
+}

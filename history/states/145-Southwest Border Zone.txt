@@ -1,0 +1,25 @@
+
+state={
+	id=145
+	name="STATE_145"
+	history={
+		owner = SHK
+		add_core_of = SHK
+		victory_points = {
+			454 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		213 383 547 620 790 1000 1019 1434 1458 1737 1954 2092 2808 3258 4166 4196 4467 4586 4900 4917 5612 6534 6630 9156 9186 9187 9213 9220 9237 9256 9266 9290 9316 9328 9329 9331 9358 9375 9420 9430 9440 9461 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

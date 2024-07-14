@@ -455,53 +455,28 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_new_imperialism_group"
-		texturefile = "gfx/interface/ideologies/new_imperialism_group.dds"
+		name = "GFX_ideology_neutrality_group"
+		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_okranite_group"
-		texturefile = "gfx/interface/ideologies/okranite_group.dds"
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_kralist_code_group"
-		texturefile = "gfx/interface/ideologies/kralist_code_group.dds"
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_old_imperialism_group"
-		texturefile = "gfx/interface/ideologies/old_imperialism_group.dds"
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
 	}
-	
+
 	spriteType = {
-		name = "GFX_ideology_hiver_group"
-		texturefile = "gfx/interface/ideologies/hiver_group.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_ideology_liberationism_group"
-		texturefile = "gfx/interface/ideologies/liberationism_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_independent_group"
-		texturefile = "gfx/interface/ideologies/independent_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_raider_group"
-		texturefile = "gfx/interface/ideologies/raider_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_horde_group"
-		texturefile = "gfx/interface/ideologies/horde_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_wilderness_group"
-		texturefile = "gfx/interface/ideologies/wilderness_group.dds"
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
 	}
 	
 	spriteType = {

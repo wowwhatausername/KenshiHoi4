@@ -1,0 +1,24 @@
+
+state={
+	id=160
+	name="STATE_160"
+	history={
+		owner = THM
+		add_core_of = THM
+		victory_points = {
+			11764 25
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		62 325 891 1102 1382 2158 2779 3746 3780 5097 5404 5505 6219 6627 6644 9527 9557 9577 9601 9608 9620 9621 9642 9650 9651 9700 9732 9746 9774 11776 13329 13632 13661 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

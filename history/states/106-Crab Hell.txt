@@ -1,0 +1,24 @@
+state={
+	id=106
+	name="STATE_106"
+	history={
+		owner = CRA
+		add_core_of = CRA
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		565 1086 1491 1801 1934 2363 2458 2641 3983 4133 4296 4696 4970 5058 5592 5760 6074 6143 6273 7752 7757 7808 7815 7870 7894 7897 7898 7924 7971 7998 11717 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

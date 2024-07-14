@@ -1,0 +1,23 @@
+state={
+	id=134
+	name="STATE_134"
+	history={
+		owner = WHV
+		add_core_of = WHV
+		victory_points = {
+			3495 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		17 359 509 639 926 1005 1186 1285 1351 1543 1714 1876 1885 2112 2114 2529 2677 2821 2865 2879 2966 3183 3673 3936 4115 4347 4567 5174 5302 5544 5722 5921 6093 6201 8008 8082 8101 8131 8143 8150 8152 8171 8174 8254 8261 8270 8273 8304 8305 8339 8364 8369 8387 8421 8443 8535 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

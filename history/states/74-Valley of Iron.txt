@@ -1,0 +1,25 @@
+
+state={
+	id=74
+	name="STATE_74"
+	history={
+		owner = BDN
+		add_core_of = BDN
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		118 961 2379 2532 2554 2751 3202 3214 3530 3556 4559 4718 4771 4777 4985 5086 6048 6105 6232 6301 6444 7676 7709 7728 7736 7738 7749 7788 7800 7829 7853 7896 7907 7933 7962 8000 13398 13401 13402 13406 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

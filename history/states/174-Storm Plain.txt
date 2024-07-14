@@ -1,0 +1,25 @@
+
+state={
+	id=174
+	name="STATE_174"
+	history={
+		owner = SHM
+		add_core_of = SHM
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		63 104 231 315 496 526 1901 1961 2590 2635 3244 3971 4201 4204 5378 5470 5498 5780 5827 6088 6096 6302 6437 8803 8807 8826 8850 8867 8900 8909 8910 8945 8985 9026 9056 9082 9119 9138 9161 9233 13484 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=146
+	name="STATE_146"
+	history={
+		owner = HNO
+		add_core_of = HNO
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		303 470 605 669 706 756 1112 1134 1485 1570 1809 2088 2121 2371 2378 2450 2502 2658 2989 3618 4156 4191 4525 4968 4978 5303 6350 8716 8748 8749 8751 8772 8776 8781 8799 8800 8820 8824 8829 8843 8844 8862 8863 8881 8884 8890 8902 8903 8916 8940 8948 8953 8967 8971 8982 8998 9007 9019 9030 9087 9101 13461 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

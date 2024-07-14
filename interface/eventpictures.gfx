@@ -1,6 +1,0 @@
-spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_tengu_throne"
-		texturefile = "gfx/event_pictures/tengu.png"
-	}

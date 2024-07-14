@@ -1,0 +1,24 @@
+state={
+	id=70
+	name="STATE_70"
+	history={
+		owner = SHM
+		add_core_of = SHM
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		1432 2139 2155 2409 2485 2754 3329 4180 4278 5138 6060 8899 8932 8951 8984 9001 9005 9015 9055 9070 9090 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

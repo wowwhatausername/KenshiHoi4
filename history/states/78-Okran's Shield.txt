@@ -1,0 +1,23 @@
+state={
+	id=78
+	name="STATE_78"
+	history={
+		owner = THN
+		add_core_of = THN
+		victory_points = {
+			3495 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		804 1718 2192 3436 3535 4582 4644 5308 6094 7521 7531 7560 7571 7585 7588 7644 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

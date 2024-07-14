@@ -1,0 +1,25 @@
+
+state={
+	id=132
+	name="STATE_132"
+	history={
+		owner = DUS
+		add_core_of = DUS
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		323 518 935 1049 1468 1575 2052 2361 2467 2484 2871 2978 3141 3474 3843 3881 3972 4305 4395 4699 4783 4877 5085 5088 5254 5402 5555 5607 5725 6147 6358 8974 8975 8999 9004 9008 9014 9020 9036 9042 9047 9073 9078 9088 9089 9102 9111 9115 9129 9136 9137 9151 9159 9177 9178 9182 9188 9202 9221 9231 9238 9249 13366 13495 13503 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

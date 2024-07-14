@@ -1,0 +1,24 @@
+
+state={
+	id=58
+	name="STATE_58"
+	history={
+		owner = TEC
+		add_core_of = TEC
+		victory_points = {
+			11764 25
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		749 787 1259 3858 4168 4684 5030 5476 5588 5650 10507 10519 10561 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

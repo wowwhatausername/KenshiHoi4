@@ -1,0 +1,12 @@
+
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		7300 7374 13395 13396
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

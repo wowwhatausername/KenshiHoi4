@@ -1,0 +1,24 @@
+state={
+	id=15
+	name="STATE_15"
+	history={
+		owner = FIS
+		add_core_of = FIS
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		40 79 109 500 736 1076 1157 1183 1425 2254 2483 2598 2771 3178 3385 3434 3456 3550 3714 4030 5632 5936 6142 6230 11591 11596 11603 11604 11606 11608 11609 11612 11618 11620 11622 11623 11629 11630 11636 11645 11652 11655 11656 11657 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

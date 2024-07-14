@@ -5,7 +5,7 @@ tags={
 	"Military"
 	"Ideologies"
 }
-name="Kenshi"
+name="Kenshi beep"
 replace_path="common/abilities"
 replace_path="common/ai_areas"
 replace_path="common/ai_equipment"

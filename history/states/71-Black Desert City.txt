@@ -1,0 +1,25 @@
+
+state={
+	id=71
+	name="STATE_71"
+	history={
+		owner = BDC
+		add_core_of = BDC
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		1411 1835 4012 5455 6533 8286 8314 8333 13309 13348 13416 13418 13419 13420 13421 13422 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

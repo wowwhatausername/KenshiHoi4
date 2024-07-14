@@ -1,0 +1,25 @@
+
+state={
+	id=196
+	name="STATE_196"
+	history={
+		owner = CBR
+		add_core_of = CBR
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		254 363 856 1448 1465 1583 1632 1923 3278 3498 4241 4510 4818 4918 5970 6174 6258 6380 9898 9938 10013 10091 10338 10475 13761 13824 13899 13930 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

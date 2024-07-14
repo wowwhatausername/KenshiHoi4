@@ -1,0 +1,23 @@
+state={
+	id=50
+	name="STATE_50"
+	history={
+		owner = SUC
+		add_core_of = SUC
+		victory_points = {
+			11764 25
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		860 1010 1480 2520 3573 5371 5999 6573 11115 11132 11138 11160 11182 11195 11196 11253 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

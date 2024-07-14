@@ -1,0 +1,25 @@
+
+state={
+	id=49
+	name="STATE_49"
+	history={
+		owner = OLD
+		add_core_of = OLD
+		victory_points = {
+			454 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		1257 3953 4187 4760 10203 10224 10261 10282 10333 10386 10422 10429 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

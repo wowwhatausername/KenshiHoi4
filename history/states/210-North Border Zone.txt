@@ -1,0 +1,24 @@
+state={
+	id=210
+	name="STATE_210"
+	history={
+		owner = HNO
+		add_core_of = HNO
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		142 206 417 591 964 1001 1152 1766 1793 1966 2188 2367 2624 3386 3749 4130 4131 4955 5045 5511 5606 5623 5995 6001 8523 8532 8542 8543 8575 8594 8598 8599 8618 8626 8629 8634 8660 8667 8669 8677 8685 8699 8702 8732 8740 8759 8766 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

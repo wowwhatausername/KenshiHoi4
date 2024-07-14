@@ -1,0 +1,25 @@
+
+state={
+	id=108
+	name="STATE_108"
+	history={
+		owner = GUT
+		add_core_of = GUT
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		748 1428 1529 1624 1891 2692 3032 3934 4488 4944 5319 5824 8042 8048 8071 8110 8125 8130 8162 8177 8209 8213 8215 8216 8259 8260 13411 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

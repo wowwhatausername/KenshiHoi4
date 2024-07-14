@@ -1,0 +1,24 @@
+state={
+	id=66
+	name="STATE_66"
+	history={
+		owner = ANT
+		add_core_of = ANT
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		1326 2552 2772 3340 4481 4530 4767 5217 5610 6373 9664 9701 9716 9724 9740 9762 9834 13703 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

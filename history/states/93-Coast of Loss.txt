@@ -1,0 +1,24 @@
+state={
+	id=93
+	name="STATE_93"
+	history={
+		owner = SEE
+		add_core_of = SEE
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		173 257 302 353 554 814 977 1685 2303 2719 3216 3484 3572 3796 3835 4592 4688 5133 5140 5868 6216 6377 6418 11648 11649 11653 11654 11660 11661 11662 11663 11665 11666 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

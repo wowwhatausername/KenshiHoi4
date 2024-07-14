@@ -1,0 +1,17 @@
+﻿capital = 111
+
+oob = "OOB_Default"
+
+recruit_character = MET_Meat_Lord
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	banditry = 10
+	neutrality = 90
+}

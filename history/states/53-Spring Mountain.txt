@@ -1,0 +1,24 @@
+state={
+	id=53
+	name="STATE_53"
+	history={
+		owner = ANT
+		add_core_of = ANT
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		218 2281 2472 3069 3338 3879 3920 4100 4390 5127 5340 5560 5806 5903 6183 6307 6652 10213 10255 10280 10345 10367 10443 10446 10487 10497 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

@@ -1,0 +1,24 @@
+state={
+	id=98
+	name="STATE_98"
+	history={
+		owner = SKB
+		add_core_of = SKB
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		458 460 714 1091 1156 1197 1198 1308 1482 2997 3150 3519 3787 4047 4068 4372 4388 4422 4574 4764 5521 5557 5598 5697 5700 6317 10195 10248 10288 10329 10330 10364 10368 10393 10417 10427 10467 10541 10563 10564 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

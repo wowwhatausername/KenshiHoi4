@@ -266,7 +266,6 @@ ideologies = {
 			abolitionism = { }
 			kazokuism = { }
 			red_star_army = { }
-			reformist_imperialism = { }
 		}
 
 		dynamic_faction_names = {

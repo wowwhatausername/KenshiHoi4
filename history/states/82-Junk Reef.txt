@@ -1,0 +1,24 @@
+state={
+	id=82
+	name="STATE_82"
+	history={
+		owner = SKN
+		add_core_of = SKN
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		1278 1459 2025 2630 3084 5252 5649 6581 11522 11542 11559 11562 11573 11575 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

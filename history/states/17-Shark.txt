@@ -1,0 +1,23 @@
+state={
+	id=17
+	name="STATE_17"
+	history={
+		owner = SWP
+		add_core_of = SWP
+		victory_points = {
+			11764 25
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		66 425 4099 4921 5871 9942 9996 10044 10082 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

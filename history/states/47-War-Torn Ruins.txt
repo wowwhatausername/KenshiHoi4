@@ -1,0 +1,24 @@
+state={
+	id=47
+	name="STATE_47"
+	history={
+		owner = SHK
+		add_core_of = SHK
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		2184 2296 2746 3493 3761 4709 5181 5260 8987 9013 9057 9079 9095 9109 9122 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

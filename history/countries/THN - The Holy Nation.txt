@@ -1,0 +1,16 @@
+﻿capital = 41
+
+oob = "OOB_Default"
+
+recruit_character = THN_Holy_Lord_Pheonix
+
+set_politics = {
+	ruling_party = holy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	holy = 100
+}

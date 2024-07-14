@@ -1,0 +1,23 @@
+state={
+	id=11
+	name="STATE_11"
+	history={
+		owner = SUC
+		add_core_of = SUC
+		victory_points = {
+			11764 25
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		273 2194 2976 3532 4051 4326 5015 10673 10716 10718 10758 10773 10811 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

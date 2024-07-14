@@ -1,0 +1,23 @@
+state={
+	id=39
+	name="STATE_39"
+	history={
+		owner = THN
+		add_core_of = THN
+		victory_points = {
+			3495 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		1 418 854 962 2032 2666 2968 3284 3670 4149 4478 4544 4585 4614 4954 5785 5906 5924 6470 6490 7474 7491 7498 7517 7528 7574 7580 7629 7668 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

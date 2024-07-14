@@ -1,0 +1,25 @@
+
+state={
+	id=191
+	name="STATE_191"
+	history={
+		owner = REA
+		add_core_of = REA
+		victory_points = {
+			11764 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+	provinces={
+		310 1002 1388 1734 1794 2002 2115 2236 2271 2345 2474 2668 2698 2834 2840 2869 2893 2987 3140 3184 3633 3661 3941 4619 4743 4831 4838 5359 5915 6038 6081 6264 6356 6381 6484 8649 8682 8715 8747 8775 8787 8815 8831 8834 8855 8912 8913 8938 8957 8961 8965 8980 8990 8995 9017 9038 9059 9062 9086 9098 9134 11758 13462 13463 13464 13469 13470 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
