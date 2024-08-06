@@ -6,7 +6,7 @@ state={
 		owner = HNO
 		add_core_of = HNO
 		victory_points = {
-			11764 25 
+			8739 25 
 		}
 		buildings = {
 			infrastructure = 5
@@ -21,5 +21,4 @@ state={
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }
