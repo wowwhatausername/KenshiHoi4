@@ -5,12 +5,11 @@ state={
 		owner = MNG
 		add_core_of = MNG
 		victory_points = {
-			11764 25 
+			7834 25 
 		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-
 		}
 
 	}
@@ -19,6 +18,5 @@ state={
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
-	
 	state_category = town
 }
