@@ -1,0 +1,16 @@
+add_namespace = UNC_Random
+
+
+country_event = {
+	id = UNC_Random.1
+	title = "The Farm"
+	desc = UNC_Random.1
+	picture = GFX_tengu_throne
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Bless the Emperor, Bless the Empire!"
+		ai_chance = { factor = 100 }
+			}
+		}

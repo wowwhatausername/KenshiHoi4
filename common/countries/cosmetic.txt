@@ -29,4 +29,9 @@ NORTH_UNION = {
 color = rgb { 204 0 0 }
 color_ui = rgb { 204 0 0 }
 }
+
+REFORMIST_REBELS = {
+color = rgb { 125 0 0 }
+color_ui = rgb { 125 0 0 }
+}
 	

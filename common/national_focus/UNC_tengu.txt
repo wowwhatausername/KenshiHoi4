@@ -1,0 +1,47 @@
+focus_tree = {
+	id = UNC_ten
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+
+		focus = {
+		id = UNC_in_the_empireeeeeeee
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 8
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		country_event = 	
+		}
+	}
+}

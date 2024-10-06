@@ -17,5 +17,16 @@ Ideas = {
                 surrender_limit = -0.2
             }
         }
+    
+	reformist_resistance = {
+            modifier = {
+                stability_factor = -0.25
+                surrender_limit = -0.2
+				recruitable_population_factor -0.5
+				political_power_cost = 2
+				
+            }
+        }
     }
 }
+	

@@ -90,7 +90,7 @@ country_event = {
 				elections_allowed = no
 			}
 			create_country_leader = {
-			name = "Hitobito Yukio"
+			name = "Hitobito"
 			desc = UNC_radical_desc
 			picture = ""
 			ideology = reformist_imperialism
@@ -169,7 +169,7 @@ country_event = {
 				elections_allowed = no
 			}
 			create_country_leader = {
-			name = "Hanashite Ōkī"
+			name = "Hanashite"
 			desc = UNC_pragmatist_desc
 			picture = ""
 			ideology = reformist_imperialism
@@ -201,7 +201,9 @@ country_event = {
 			
 			is_triggered_only = yes
 			
+			
 			option = { 
+				load_focus_tree = UNC_mil
 				name = "Thats what happens when you can't agree"
 				ai_chance = { factor = 100 }	
 			clr_country_flag = new_emp_needed

@@ -82,7 +82,7 @@ UNC_the_power_struggle = {
 			}
 			add_to_variable = {
 				var = pragmatic_influence
-				value = 3
+				value = 1
 				tooltip = prag_gain
 			}
 			clamp_variable = {
@@ -114,7 +114,7 @@ UNC_the_power_struggle = {
 						add_stability = 0.005		
 			add_to_variable = {
 				var = idiot_influence
-				value = 2
+				value = 1
 				tooltip = idiot_gain
 			}
 			clamp_variable = {
@@ -203,4 +203,41 @@ UNC_the_power_struggle = {
 			}
 		}
 	}
+}
+UNC_reformist_resitence_to_millitary = {
+crush_the_reformists = {
+		cost = 0
+		fixed_random_seed = no
+		days_mission_timeout = 100
+		selectable_mission = no
+		is_good = no
+		fire_only_once = yes
+		available = {
+			always = false
+		}
+		allowed = {
+            tag = UNC
+        }
+		activation = {
+			has_idea = reformist_resistance
+		}
+		timeout_effect = {
+		start_civil_war = {
+		ideology = liberationism
+		states = { 18 19 24 47 29 74
+	}
+	set_cosmetic_tag = REFORMIST_REBELS	
+		
+		
+		}	
+		}
+		cancel_trigger = {
+        NOT = { has_idea = reformist_resistance }
+    
+	
+	}
+	}
+
+
+
 }

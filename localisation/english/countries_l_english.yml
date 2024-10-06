@@ -26,6 +26,9 @@ NORTH_UNION:0 "Northern Union"
  CRAB_EMPIRE_DEF:0 "the First Crab Empire"
  CRAB_EMPIRE_ADJ:0 "Crabish"
 
+ REFORMIST_REBELS:0 "Reformist Rebels"
+ REFORMIST_REBELS_DEF:0 "the Movement agaist the Army"
+ REFORMIST_REBELS_ADJ:0 "Reformists"
 
  ZCN_UNI:0 "Unholy Nation"
  ZCN_UNI_DEF:0 "the Unholy Nation"

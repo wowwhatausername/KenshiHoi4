@@ -1,0 +1,48 @@
+focus_tree = {
+	id = UNC_mil
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+
+		focus = {
+		id = UNC_the_military_coup
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 12
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_ideas = reformist_resistance
+		unlock_decision_category_tooltip = UNC_reformist_resitence_to_millitary
+		}
+	}
+}
