@@ -15,3 +15,41 @@ UNC_the_power_struggle = {
 		}
 	}
 }
+
+UNC_Mob_Enthusiasm = {
+	visible_when_empty = yes
+	allowed = {
+		tag = UNC
+	}
+	visible = {
+		UNC = { 
+				has_completed_focus =  UNC_racist_glory_to_the_people 
+			} 
+		}
+	}
+	
+	UNC_debug = {
+		visible_when_empty = yes
+		allowed = {
+			tag = UNC
+		}
+		visible = {
+			UNC = { 
+					is_debug = yes
+				} 
+			}
+		}
+
+		UNC_reformist_factions = {
+			visible_when_empty = yes
+			allowed = {
+				tag = UNC
+			}
+			visible = {
+				UNC = { 
+						is_debug = yes
+					} 
+				}
+			}
+		
+	

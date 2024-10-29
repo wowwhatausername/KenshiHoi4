@@ -207,3 +207,1093 @@ focus_tree = {
 	}
 
 }
+focus_tree = {
+	id = UNC_racist
+	
+	country = {
+		factor = 10
+		tag = TST
+		modifier = {
+			
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+focus = {
+	id = UNC_racist_glory_to_the_people
+	icon = GFX_focus_rom_royal_dictatorship
+	#prerequisite = { }
+	x = -20
+	y = 0
+	#relative_position_id = UNC_in_the_military
+
+	cost = 5
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+		}
+	}
+
+	available = {
+		
+	}
+	
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	unlock_decision_category_tooltip = UNC_Mob_Enthusiasm
+	set_variable = {
+		var = enthusiasm
+		value = 69
+	}
+
+}
+}
+focus = {
+	id = UNC_racist_begin_land_reforms
+		icon = GFX_goal_generic_major_war
+		prerequisite = {focus = UNC_racist_glory_to_the_people}
+		x = -8
+		y = 1
+		relative_position_id = UNC_racist_glory_to_the_people
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+	}
+	focus = {
+		id = UNC_racist_use_nobles_land
+			icon = GFX_goal_generic_major_war
+			prerequisite = {focus = UNC_racist_begin_land_reforms}
+			x = 1
+			y = 1
+			relative_position_id = UNC_racist_begin_land_reforms
+			mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+			cost = 10
+	
+			ai_will_do = {
+				factor = 1
+				modifier = {
+				}
+			}
+	
+			available = {
+			check_variable = { enthusiasm >  50 }
+				
+			
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+	
+			completion_reward = {
+			add_political_power = 75	
+			}
+		}
+		focus = {
+			id = UNC_racist_use_unused_land
+				icon = GFX_goal_generic_major_war
+				prerequisite = {focus = UNC_racist_begin_land_reforms}
+				x = -1
+				y = 1
+				relative_position_id = UNC_racist_begin_land_reforms
+				mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+				cost = 10
+		
+				ai_will_do = {
+					factor = 1
+					modifier = {
+					}
+				}
+		
+				available = {
+					
+				}
+				
+				bypass = {
+		
+				}
+		
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+		
+				completion_reward = {
+				add_political_power = 75	
+				}
+			}
+
+			focus = {
+				id = UNC_racist_develop_the_countryside
+					icon = GFX_goal_generic_major_war
+					prerequisite = {focus = UNC_racist_use_unused_land}
+					x = 0
+					y = 1
+					relative_position_id = UNC_racist_use_unused_land
+					#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+					cost = 10
+			
+					ai_will_do = {
+						factor = 1
+						modifier = {
+						}
+					}
+			
+					available = {
+						
+					}
+					
+					bypass = {
+			
+					}
+			
+					cancel_if_invalid = yes
+					continue_if_invalid = no
+					available_if_capitulated = no
+			
+					completion_reward = {
+					add_political_power = 75	
+					}
+				}
+				focus = {
+					id = UNC_insentives_for_moving
+						icon = GFX_goal_generic_major_war
+						prerequisite = {focus = UNC_racist_use_unused_land}
+						x = -2
+						y = 1
+						relative_position_id = UNC_racist_use_unused_land
+						#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+						cost = 10
+				
+						ai_will_do = {
+							factor = 1
+							modifier = {
+							}
+						}
+				
+						available = {
+							
+						}
+						
+						bypass = {
+				
+						}
+				
+						cancel_if_invalid = yes
+						continue_if_invalid = no
+						available_if_capitulated = no
+				
+						completion_reward = {
+						add_political_power = 75	
+						}
+					}
+		
+					focus = {
+						id = UNC_favor_humans
+							icon = GFX_goal_generic_major_war
+							prerequisite = {focus = UNC_racist_use_nobles_land}
+							x = 2
+							y = 1
+							relative_position_id = UNC_racist_use_nobles_land
+							#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+							cost = 10
+					
+							ai_will_do = {
+								factor = 1
+								modifier = {
+								}
+							}
+					
+							available = {
+								
+							}
+							
+							bypass = {
+					
+							}
+					
+							cancel_if_invalid = yes
+							continue_if_invalid = no
+							available_if_capitulated = no
+					
+							completion_reward = {
+							add_political_power = 75	
+							}
+						}
+						focus = {
+							id = UNC_turn_palaces_into_apartments
+								icon = GFX_goal_generic_major_war
+								prerequisite = {focus = UNC_racist_use_nobles_land}
+								x = 0
+								y = 1
+								relative_position_id = UNC_racist_use_nobles_land
+								#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+								cost = 10
+						
+								ai_will_do = {
+									factor = 1
+									modifier = {
+									}
+								}
+						
+								available = {
+									
+								}
+								
+								bypass = {
+						
+								}
+						
+								cancel_if_invalid = yes
+								continue_if_invalid = no
+								available_if_capitulated = no
+						
+								completion_reward = {
+								add_political_power = 75	
+								}
+							}
+							focus = {
+								id = UNC_redistribute_to_human_farmers
+									icon = GFX_goal_generic_major_war
+									prerequisite = {focus = UNC_turn_palaces_into_apartments}
+									prerequisite = { focus = UNC_favor_humans }
+									x = 0
+									y = 1
+									relative_position_id = UNC_turn_palaces_into_apartments
+									#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+									cost = 10
+							
+									ai_will_do = {
+										factor = 1
+										modifier = {
+										}
+									}
+							
+									available = {
+										
+									}
+									
+									bypass = {
+							
+									}
+							
+									cancel_if_invalid = yes
+									continue_if_invalid = no
+									available_if_capitulated = no
+							
+									completion_reward = {
+									add_political_power = 75	
+									}
+			}	
+			focus = {
+				id = UNC_keep_prices_low
+					icon = GFX_goal_generic_major_war
+					prerequisite = { focus = UNC_racist_develop_the_countryside}
+					prerequisite = { focus = UNC_insentives_for_moving }
+					x = 0
+					y = 1
+					relative_position_id = UNC_racist_develop_the_countryside
+					#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+					cost = 10
+			
+					ai_will_do = {
+						factor = 1
+						modifier = {
+						}
+					}
+			
+					available = {
+						
+					}
+					
+					bypass = {
+			
+					}
+			
+					cancel_if_invalid = yes
+					continue_if_invalid = no
+					available_if_capitulated = no
+			
+					completion_reward = {
+					add_political_power = 75	
+					}
+}	
+focus = {
+	id = UNC_fruits_of_our_labour
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_keep_prices_low focus = UNC_redistribute_to_human_farmers }
+		x = 1
+		y = 2
+		relative_position_id = UNC_racist_develop_the_countryside
+		#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}			
+focus = {
+	id = UNC_kill_me
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_racist_glory_to_the_people}
+		x = 0
+		y = 1
+		relative_position_id = UNC_racist_glory_to_the_people
+		#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_begin_political_reform
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_racist_glory_to_the_people}
+		x = 0
+		y = 1
+		relative_position_id = UNC_racist_glory_to_the_people
+		#mutually_exclusive = { focus = UNC_racist_use_nobles_land }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_we_dont_work_with_traitors
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_begin_political_reform}
+		x = 1
+		y = 1
+		relative_position_id = UNC_begin_political_reform
+		mutually_exclusive = { focus = UNC_work_with_nobles }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_work_with_nobles
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_begin_political_reform}
+		x = -1
+		y = 1
+		relative_position_id = UNC_begin_political_reform
+		mutually_exclusive = { focus = UNC_we_dont_work_with_traitors }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_use_noble_influence
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_work_with_nobles}
+		x = -2
+		y = 1
+		relative_position_id = UNC_work_with_nobles
+		#mutually_exclusive = { focus = UNC_we_dont_work_with_traitors }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_make_nobles_figureheads
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_work_with_nobles}
+		x = 0
+		y = 1
+		relative_position_id = UNC_work_with_nobles
+		#mutually_exclusive = { focus = UNC_we_dont_work_with_traitors }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_begin_to_curb_noble_power
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_make_nobles_figureheads}
+		prerequisite = { focus = UNC_use_noble_influence}
+		x = 0
+		y = 1
+		relative_position_id = UNC_make_nobles_figureheads
+		#mutually_exclusive = { focus = UNC_we_dont_work_with_traitors }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_redistribute_wealth
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_we_dont_work_with_traitors}
+		x = 2
+		y = 1
+		relative_position_id = UNC_we_dont_work_with_traitors
+		#mutually_exclusive = { focus = UNC_work_with_nobles }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_purge_shek_nobles
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_we_dont_work_with_traitors}
+		x = 0
+		y = 1
+		relative_position_id = UNC_we_dont_work_with_traitors
+		#mutually_exclusive = { focus = UNC_work_with_nobles }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_free_luquin
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_purge_shek_nobles}
+		prerequisite = { focus = UNC_redistribute_wealth}
+		x = 0
+		y = 1
+		relative_position_id = UNC_purge_shek_nobles
+		#mutually_exclusive = { focus = UNC_work_with_nobles }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_give_humans_more_rights
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = UNC_begin_to_curb_noble_power focus = UNC_free_luquin}
+		x = -1
+		y = 2
+		relative_position_id = UNC_purge_shek_nobles
+		#mutually_exclusive = { focus = UNC_work_with_nobles }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+}
+focus = {
+	id = UNC_begin_economic_reforms
+		icon = GFX_goal_generic_major_war
+		prerequisite = {focus = UNC_racist_glory_to_the_people}
+		x = 8
+		y = 1
+		relative_position_id = UNC_racist_glory_to_the_people
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 75	
+		}
+	}
+	focus = {
+		id = UNC_redistribute_noble_wealth
+			icon = GFX_goal_generic_major_war
+			prerequisite = {focus = UNC_begin_economic_reforms}
+			x = 1
+			y = 1
+			relative_position_id = UNC_begin_economic_reforms
+			mutually_exclusive = { focus =  UNC_insentivise_buisness }
+			cost = 10
+	
+			ai_will_do = {
+				factor = 1
+				modifier = {
+				}
+			}
+	
+			available = {
+				
+			}
+			
+			bypass = {
+	
+			}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+	
+			completion_reward = {
+			add_political_power = 75	
+			}
+		}
+		focus = {
+			id = UNC_insentivise_buisness
+				icon = GFX_goal_generic_major_war
+				prerequisite = {focus = UNC_begin_economic_reforms}
+				x = -1
+				y = 1
+				relative_position_id = UNC_begin_economic_reforms
+				mutually_exclusive = { focus = UNC_redistribute_noble_wealth }
+				cost = 10
+		
+				ai_will_do = {
+					factor = 1
+					modifier = {
+					}
+				}
+		
+				available = {
+					
+				}
+				
+				bypass = {
+		
+				}
+		
+				cancel_if_invalid = yes
+				continue_if_invalid = no
+				available_if_capitulated = no
+		
+				completion_reward = {
+				add_political_power = 75	
+				}
+			}
+			focus = {
+				id = UNC_limit_slavery
+					icon = GFX_goal_generic_major_war
+					prerequisite = {focus = UNC_insentivise_buisness}
+					x = -2
+					y = 1
+					relative_position_id = UNC_insentivise_buisness
+			
+					cost = 10
+			
+					ai_will_do = {
+						factor = 1
+						modifier = {
+						}
+					}
+			
+					available = {
+						
+					}
+					
+					bypass = {
+			
+					}
+			
+					cancel_if_invalid = yes
+					continue_if_invalid = no
+					available_if_capitulated = no
+			
+					completion_reward = {
+					add_political_power = 75	
+					}
+				}
+				focus = {
+					id = UNC_a_national_minimum_Wage
+						icon = GFX_goal_generic_major_war
+						prerequisite = {focus = UNC_insentivise_buisness}
+						x = 0
+						y = 1
+						relative_position_id = UNC_insentivise_buisness
+				
+						cost = 10
+				
+						ai_will_do = {
+							factor = 1
+							modifier = {
+							}
+						}
+				
+						available = {
+							
+						}
+						
+						bypass = {
+				
+						}
+				
+						cancel_if_invalid = yes
+						continue_if_invalid = no
+						available_if_capitulated = no
+				
+						completion_reward = {
+						add_political_power = 75	
+						}
+					}
+					focus = {
+						id = UNC_take_down_noble_monopolys
+							icon = GFX_goal_generic_major_war
+							prerequisite = {focus = UNC_limit_slavery}
+							prerequisite = {focus = UNC_a_national_minimum_Wage}
+							x = 0
+							y = 1
+							relative_position_id = UNC_a_national_minimum_Wage
+					
+							cost = 10
+					
+							ai_will_do = {
+								factor = 1
+								modifier = {
+								}
+							}
+					
+							available = {
+								
+							}
+							
+							bypass = {
+					
+							}
+					
+							cancel_if_invalid = yes
+							continue_if_invalid = no
+							available_if_capitulated = no
+					
+							completion_reward = {
+							add_political_power = 75	
+							}
+						}
+						focus = {
+							id = UNC_nationalize_noble_companys
+								icon = GFX_goal_generic_major_war
+								prerequisite = {focus = UNC_redistribute_noble_wealth}
+								x = 0
+								y = 1
+								relative_position_id = UNC_redistribute_noble_wealth
+						
+								cost = 10
+						
+								ai_will_do = {
+									factor = 1
+									modifier = {
+									}
+								}
+						
+								available = {
+									
+								}
+								
+								bypass = {
+						
+								}
+						
+								cancel_if_invalid = yes
+								continue_if_invalid = no
+								available_if_capitulated = no
+						
+								completion_reward = {
+								add_political_power = 75	
+								}
+							}
+							focus = {
+								id = UNC_move_slavery_to_only_inhumans
+									icon = GFX_goal_generic_major_war
+									prerequisite = {focus = UNC_redistribute_noble_wealth}
+									x = 2
+									y = 1
+									relative_position_id = UNC_redistribute_noble_wealth
+							
+									cost = 10
+							
+									ai_will_do = {
+										factor = 1
+										modifier = {
+										}
+									}
+							
+									available = {
+										
+									}
+									
+									bypass = {
+							
+									}
+							
+									cancel_if_invalid = yes
+									continue_if_invalid = no
+									available_if_capitulated = no
+							
+									completion_reward = {
+									add_political_power = 75	
+									}
+								}
+								focus = {
+									id = UNC_make_a_planned_economy
+										icon = GFX_goal_generic_major_war
+										prerequisite = {focus = UNC_move_slavery_to_only_inhumans}
+										prerequisite = {focus = UNC_nationalize_noble_companys}
+										x = 0
+										y = 1
+										relative_position_id = UNC_nationalize_noble_companys
+								
+										cost = 10
+								
+										ai_will_do = {
+											factor = 1
+											modifier = {
+											}
+										}
+								
+										available = {
+											
+										}
+										
+										bypass = {
+								
+										}
+								
+										cancel_if_invalid = yes
+										continue_if_invalid = no
+										available_if_capitulated = no
+								
+										completion_reward = {
+										add_political_power = 75	
+										}
+									}
+									focus = {
+										id = UNC_the_united_roads_project
+											icon = GFX_goal_generic_major_war
+											prerequisite = {focus = UNC_make_a_planned_economy focus = UNC_take_down_noble_monopolys}
+											x = -1
+											y = 1
+											relative_position_id = UNC_make_a_planned_economy
+									
+											cost = 10
+									
+											ai_will_do = {
+												factor = 1
+												modifier = {
+												}
+											}
+									
+											available = {
+												
+											}
+											
+											bypass = {
+									
+											}
+									
+											cancel_if_invalid = yes
+											continue_if_invalid = no
+											available_if_capitulated = no
+									
+											completion_reward = {
+											add_political_power = 75	
+											}
+										}
+										focus = {
+											id = UNC_overhall_the_decrepit_system
+												icon = GFX_goal_generic_major_war
+												prerequisite = {focus = UNC_the_united_roads_project}
+												prerequisite = {focus = UNC_give_humans_more_rights}
+												prerequisite = {focus = UNC_fruits_of_our_labour}
+												x = 0
+												y = 1
+												relative_position_id = UNC_give_humans_more_rights
+										
+												cost = 10
+										
+												ai_will_do = {
+													factor = 1
+													modifier = {
+													}
+												}
+										
+												available = {
+													
+												}
+												
+												bypass = {
+										
+												}
+										
+												cancel_if_invalid = yes
+												continue_if_invalid = no
+												available_if_capitulated = no
+										
+												completion_reward = {
+												add_political_power = 75	
+												}
+											}
+						}
+					

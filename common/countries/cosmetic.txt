@@ -2,9 +2,13 @@ ZHO_UNI = {
     color = rgb { 165 116 82 }
 	color_ui = rgb { 165 116 82 }
 }
+UNC_RADICAL = {
+color = rgb { 165 11 94 }
+	color_ui = rgb {165 11 94 }
+}
 ZCN_UNI = {
-color = rgb { 52 42 84 }
-color_ui = rgb { 52 42 84 }
+color = rgb { 52 42 84}
+color_ui = rgb { 52 42 84}
 	}
 	ZDV_UNI = {
 	color = rgb { 198 219 219 }

@@ -15,13 +15,13 @@ set_technology = {
 	tech_mountaineers = 1
 }
 set_politics = {
-	ruling_party = raider
+	ruling_party = liberationism
 }
 
 add_ideas = {
-	army_with_a_state
-	no_economy
-	raider_economy
+	national_draft
+	balanced_economy
+	closed_economy
 	warlord_state
 }
 
@@ -30,10 +30,10 @@ set_popularities = {
 	okranite = 0
 	kralist_code = 0
 	old_imperialism = 0
-	hiver = 0
-	liberationism = 0
-	independent = 0
-	raider = 100
+	hiver = 5
+	liberationism = 80
+	independent = 10
+	raider = 5
 	horde = 0
 	wilderness = 0
 }
@@ -42,7 +42,7 @@ create_country_leader = {
 	name = ZHB_leader
 	desc = ZHB_leader_desc
 	picture = "gfx/leaders/Generic/leader_template.dds"
-	ideology = banditry
+	ideology = red_star_army
 	traits = {
 		#
 	}

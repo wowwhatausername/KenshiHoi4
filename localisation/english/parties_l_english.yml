@@ -36,6 +36,7 @@
  UNC_okranite_party:0 "Various Okranites"
  UNC_liberationism_party:0 "Reformists - Radicals"
  UNC_independent_party:0 "Reformists - Pragmatists"
+ UNC_raider_party:0 "Samurai"
  
  new_imperialism_desc:0 "Free Market Oligarchy"
  okranite_desc:0 "Human Theocracy"
@@ -92,8 +93,8 @@
  abolitionism:0 "Abolitionism"
  kazokuism:0 "Kazokuism"
  red_star_army:0 "Red Star Army"
- reformist_imperialism:0 "Radical Populism"
- reformist_imperialism_desc:0 ""
+ reformist_imperialism:0 "Reformist_Imperialism"
+ reformist_imperialism_desc:0 "Hailing from the underbelly of the Empire, The Reformist Movement is a collection of different ideals. The Mainstream, Moderates, call for an Reformation, while radical, still keeps the ideas of the Empire, it is simmiler to the ideas of the original goals of the United Cities."
  abolitionism_desc:0 ""
  kazokuism_desc:0 ""
  red_star_army_desc:0 ""

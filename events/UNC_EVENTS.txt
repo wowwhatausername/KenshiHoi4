@@ -83,14 +83,15 @@ country_event = {
 			option = { 
 				name = "Without the Radicals there will be no New Empire!"
 				ai_chance = { factor = 100 }	
-			clr_country_flag = new_emp_needed
+				load_focus_tree = UNC_racist
+				clr_country_flag = new_emp_needed
 			add_stability = 0.25
 			set_politics = {
 				ruling_party = liberationism
 				elections_allowed = no
 			}
 			create_country_leader = {
-			name = "Hitobito"
+			name = "People's Party of the United Cities"
 			desc = UNC_radical_desc
 			picture = ""
 			ideology = reformist_imperialism
@@ -172,7 +173,7 @@ country_event = {
 			name = "Hanashite"
 			desc = UNC_pragmatist_desc
 			picture = ""
-			ideology = reformist_imperialism
+			ideology = centrism
 			traits = {
 				#
 			}
@@ -256,5 +257,6 @@ country_event = {
 		#
 	}
 		}
+
 }
-}
+	}

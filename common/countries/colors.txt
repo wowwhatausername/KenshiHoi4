@@ -227,8 +227,8 @@ ZBH = {
 }
 
 ZHB = {
-	color = rgb { 132 204 102 }
-	color_ui = rgb { 132 204 102 }
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
 }
 
 ZCN = {
@@ -430,8 +430,8 @@ YNS = {
 }
 
 YSS = {
-	color = rgb { 168 168 168 }
-	color_ui = rgb { 168 168 168 }
+	color = rgb { 61 12 2 }
+	color_ui = rgb { 61 12 2 }
 }
 
 YOE = {

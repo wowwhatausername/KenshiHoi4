@@ -15,25 +15,25 @@ set_technology = {
 	tech_mountaineers = 1
 }
 set_politics = {
-	ruling_party = raider
+	ruling_party = liberationism
 }
 
 add_ideas = {
 	army_with_a_state
 	no_economy
-	raider_economy
+	encouraged_service
 	warlord_state
 }
 
 set_popularities = {
-	new_imperialism = 0
+	new_imperialism = 5
 	okranite = 0
-	kralist_code = 5
+	kralist_code = 0
 	old_imperialism = 0
 	hiver = 0
-	liberationism = 25
+	liberationism = 60
 	independent = 10
-	raider = 60
+	raider = 25
 	horde = 0
 	wilderness = 0
 }
@@ -42,7 +42,7 @@ create_country_leader = {
 	name = YSS_leader
 	desc = YSS_leader_desc
 	picture = "gfx/leaders/Generic/leader_template.dds"
-	ideology = piracy
+	ideology = anarchism
 	traits = {
 		#
 	}

@@ -68,6 +68,7 @@ ideologies = {
 			ascensionism = { }
 			crusadist = { }
 			neo_crusadist = { }
+			
 		}
 
 		dynamic_faction_names = {
@@ -262,11 +263,11 @@ ideologies = {
 	liberationism = {
 
 		types = {
-
 			abolitionism = { }
 			kazokuism = { }
 			red_star_army = { }
 			reformist_imperialism = { }
+			anarchism = {}
 		}
 
 		dynamic_faction_names = {
@@ -324,6 +325,7 @@ ideologies = {
 			centrism = { }
 			mercantilism = { }
 			beepism = { }
+			accelerationism = { }
 		}
 
 		dynamic_faction_names = {
@@ -370,12 +372,14 @@ ideologies = {
 	raider = {
 
 		types = {
-
+			stratocracy = { }
 			retributionism = { }
 			banditry = { }
 			piracy = { }
 			military_coup = { }
 			blood_cult = { }
+			ultramilitarism = { }
+			vanguard_anarchism = { }
 		}
 
 		dynamic_faction_names = {

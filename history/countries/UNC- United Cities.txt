@@ -39,14 +39,14 @@ add_ideas = {
 }
 
 set_popularities = {
-	new_imperialism = 80
+	new_imperialism = 70
 	okranite = 0
 	kralist_code = 0
 	old_imperialism = 0
 	hiver = 0
 	liberationism = 8
 	independent = 12
-	raider = 0
+	raider = 10
 	horde = 0
 	wilderness = 0
 }

@@ -1,0 +1,27 @@
+add_namespace = SLP
+
+country_event = {
+	id = SLP.1
+	title = "keel the fuckin idk bug people"
+	desc = "jim slaver? ya? keel the bug people"
+	picture = GFX_tengu_throne
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = { days = 3}
+	trigger = {
+			tag = SLP
+			country_exists = CWY
+			exists = yes
+			has_war = no
+			date > 1936.03.01
+		}
+		option = { 
+			name = "Bless the Nobles!"
+			ai_chance = { factor = 100 }
+			declare_war_on = {
+				target =  CWY
+				type = annex_everything
+			}	
+		}
+			}

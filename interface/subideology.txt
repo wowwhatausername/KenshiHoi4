@@ -1,0 +1,356 @@
+defined_text = {
+	name = GetSubIdeology
+	text = {
+		trigger = {
+			has_government = new_imperialism
+		}
+		localization_key = "[GetSubIdeologyImp]"
+	}
+	text = {
+		trigger = {
+			has_government = okranite
+		}
+		localization_key = "[GetSubIdeologyOkr]"
+	}
+	text = {
+		trigger = {
+			has_government = kralist_code
+		}
+		localization_key = "[GetSubIdeologyKrl]"
+	}
+	text = {
+		trigger = {
+			has_government = old_imperialism
+		}
+		localization_key = "[GetSubIdeologyOld]"
+	}
+text = {
+		trigger = {
+			has_government = hiver
+		}
+		localization_key = "[GetSubIdeologyHiv]"
+	}
+
+}
+text = {
+		trigger = {
+			has_government = liberationism
+		}
+		localization_key = "[GetSubIdeologyLib]"
+	}
+text = {
+		trigger = {
+			has_government = independent
+		}
+		localization_key = "[GetSubIdeologyInd]"
+	}
+
+text = {
+		trigger = {
+			has_government = raider
+		}
+		localization_key = "[GetSubIdeologyRdr]"
+	}
+text = {
+		trigger = {
+			has_government = horde
+		}
+		localization_key = "[GetSubIdeologyHrd]"
+	}
+text = {
+		trigger = {
+			has_government = wilderness
+		}
+		localization_key = "[GetSubIdeologyWld]"
+	}
+
+
+
+
+	
+defined_text = {
+	name = GetSubIdeologyImp
+	text = {
+		trigger = {
+			has_country_leader_ideology = feudal_union
+		}
+		localization_key = feudel_union
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = foundationalism
+		}
+		localization_key = foundationalism
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = commercialism
+		}
+		localization_key = commercialism
+	}
+
+
+text = {
+		trigger = {
+			has_country_leader_ideology = acquisitionism
+		}
+		localization_key = acquisitionism
+	}
+
+
+
+}
+defined_text = {
+	name = GetSubIdeologyOkr
+	text = {
+		trigger = {
+			has_country_leader_ideology = fundamentalism
+		}
+		localization_key = feudel_union
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascensionism
+		}
+		localization_key = ascensionism
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = crusadist
+		}
+		localization_key = crusadist
+	}
+
+
+text = {
+		trigger = {
+			has_country_leader_ideology = neo_crusadist
+		}
+		localization_key = neo_crusadist
+	}
+
+
+
+}
+
+defined_text = {
+	name = GetSubIdeologyShk
+	text = {
+		trigger = {
+			has_country_leader_ideology = way_of_the_warrior
+		}
+		localization_key = way_of_the_warrior
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = new_era_sheks
+		}
+		localization_key = new_era_sheks
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology =  bayanism
+		}
+		localization_key =  bayanism
+	}
+}
+defined_text = {
+	name = GetSubIdeologyOld
+	text = {
+		trigger = {
+			has_country_leader_ideology = fallen_kingdom
+		}
+		localization_key = fallen_kingdom
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = Automatism
+		}
+		localization_key = Automatism
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology =  salvationism
+		}
+		localization_key =  salvationism
+	}
+}
+defined_text = {
+	name = GetSubIdeologyHiv
+	text = {
+		trigger = {
+			has_country_leader_ideology = open_hive
+		}
+		localization_key = open_hive
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = closed_hive
+		}
+		localization_key = closed_hive
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = war_hive
+		}
+		localization_key = war_hive
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLib
+	text = {
+		trigger = {
+			has_country_leader_ideology = abolitionism
+		}
+		localization_key = abolitionism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = kazokuism
+		}
+		localization_key = kazokuism
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = red_star_army
+		}
+		localization_key = red_star_army
+	}
+text = {
+		trigger = {
+			has_country_leader_ideology = reformist_imperialism
+		}
+		localization_key = reformist_imperialism
+	}
+
+}
+
+defined_text = {
+	name = GetSubIdeologyInd
+	text = {
+		trigger = {
+			has_country_leader_ideology = republicanism
+		}
+		localization_key = republicanism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = democracy
+		}
+		localization_key = democracy
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = technocracy
+		}
+		localization_key = technocracy
+	}
+text = {
+		trigger = {
+			has_country_leader_ideology = nomadism
+		}
+		localization_key = nomadism
+	}
+text = {
+		trigger = {
+			has_country_leader_ideology = black_market_state
+		}
+		localization_key = black_market_state
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = fortress_state
+		}
+		localization_key = fortress_state
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = centrism
+		}
+		localization_key = centrism
+	}
+text = {
+		trigger = {
+			has_country_leader_ideology = mercantilism
+		}
+		localization_key = mercantilism
+	}
+
+
+}
+
+defined_text = {
+	name = GetSubIdeologyRdr
+	text = {
+		trigger = {
+			has_country_leader_ideology = retributionism
+		}
+		localization_key = retributionism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = banditry
+		}
+		localization_key = banditry
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = piracy
+		}
+		localization_key = piracy
+	}
+text = {
+		trigger = {
+			has_country_leader_ideology = military_coup
+		}
+		localization_key = military_coup
+	}
+text = {
+		trigger = {
+			has_country_leader_ideology = blood_cult
+		}
+		localization_key = blood_cult
+	}
+
+
+}
+
+defined_text = {
+	name = GetSubIdeologyWld
+	text = {
+		trigger = {
+			has_country_leader_ideology = savage_horde
+		}
+		localization_key = savage_horde
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = untamed_wilderness
+		}
+		localization_key = untamed_wilderness
+	}
+
+text = {
+		trigger = {
+			has_country_leader_ideology = total_anarchy
+		}
+		localization_key = total_anarchy
+	}
+text = {
+		trigger = {
+			has_country_leader_ideology = total_wasteland
+		}
+		localization_key = total_wasteland
+	}
+
+}
+
